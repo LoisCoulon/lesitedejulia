@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom"
+import logo from '../../Images/LogoJuliaCoulon.png'
 
 function Header() {
 
     return (
-        <nav>
-            <Link to="/">Accueil</Link>
-            <Link to="/about">A propos de moi</Link>
-        </nav>
+        <header className="header">
+            <Link to="/" className="header--logo"><img src={logo} alt="logo"/></Link>
+            <nav className="header--navbar">
+                <Link to="/">Accueil</Link>
+                <Link to="/about">A propos de moi</Link>
+            </nav>
+        </header>
+        
     )
 }
 

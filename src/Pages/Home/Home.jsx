@@ -1,9 +1,9 @@
 function Home() {
 
     return (
-        <div>
-            <p>Page d'accueil</p>
-        </div>
+        <main className="homePage">
+            <h1 className="homePage--title">Page d'accueil</h1>
+        </main>
     )
 }
 

@@ -1,8 +1,7 @@
-div {
-    display: flex;
-    justify-content: center;
-
-    p {
-        color: $primary-color;
+   .homePage{
+    
+    &--title{
+        text-align: center;
     }
-}
+   }
+    
