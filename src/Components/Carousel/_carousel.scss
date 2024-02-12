@@ -1,19 +1,11 @@
-.carousel-wrapper {
-    
-    // overflow: hidden;
-    // height: 90vh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // margin: 10px;
-    // border-radius: 10px;
-}
-
-@media screen and (min-width: 900px) {
-
-}
 /* smartphones, iPhone, portrait 480x320 phones */
-@media (min-width:320px)  {  }
+@media (min-width:320px)  {
+
+    .carousel-wrapper {
+        display: none;    
+        box-shadow: $box-shadow2
+    }
+  }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px)  {  }
@@ -27,13 +19,12 @@
     .carousel-wrapper {
         
         overflow: hidden;
-        height: 90vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 10px;
         border-radius: 10px;
-
         .slider-wrapper{
 
             border-radius: 10px;

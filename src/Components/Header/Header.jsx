@@ -9,6 +9,7 @@ function Header() {
             <nav className="header--navbar">
                 <Link to="/">Accueil</Link>
                 <Link to="/about">A propos de moi</Link>
+                <Link to="/contact">Me contacter</Link>
             </nav>
         </header>
         

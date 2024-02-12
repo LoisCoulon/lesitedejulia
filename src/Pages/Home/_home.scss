@@ -1,7 +1,72 @@
-   .homePage{
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {
+
+    .top{
+        position: relative;
+        text-align: center;
+        background-color: black;
+        min-height: 100vh;
+
+
+        &--title{
+            position: relative;
+            z-index: 10;
+            color: $light;
+        }
+
+        &--sub{
+            position: relative;
+            z-index: 2;
+            color: $light;
+
+        }
+
+        img{
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.5;
+            object-fit: cover;
+
+        }
+    }
+  }
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  {  }
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {  }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  {
+
+   .top{
+    // border: 2px solid $primary-color;
+    margin: 15px;
+    border-radius: 10px;
+    opacity: 0.4;
+    box-shadow: $box-shadow2;
+    min-height: auto;
     
     &--title{
-        text-align: center;
+        font-size: 4rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+
+    &--sub {
+        font-size: 3.5rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+    }
+
+    img{
+        display: none;
     }
    }
     
+}

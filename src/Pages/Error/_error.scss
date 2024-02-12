@@ -1,0 +1,24 @@
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {
+    .error{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:481px)  {  }
+  
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  @media (min-width:641px)  {  }
+  
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  @media (min-width:961px)  {
+
+  }
