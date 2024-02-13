@@ -1,0 +1,9 @@
+@mixin burger{
+    z-index: 15;
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    background: $light;
+    transition: all .5s ease-in-out;
+}
