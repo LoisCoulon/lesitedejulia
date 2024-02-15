@@ -3,24 +3,17 @@
 
     main{
         position: relative;
-        .body__image{
-    
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            opacity: 0.5;
-            object-fit: cover;
-
-        }
+        
         .top{
             position: relative;
             text-align: center;
-            background-color: black;
-            min-height: 100vh;
-    
+            background-color: black;  
+            border-radius: 10px;
+            opacity: 0.4;
+            box-shadow: $box-shadow2;
+            min-height: auto;  
+            margin: 0.5rem;
+            padding: 0.5rem 0.1rem 1rem 0.1rem;
     
             &--title{
                 position: relative;
@@ -32,6 +25,8 @@
                 position: relative;
                 z-index: 2;
                 color: $light;
+                line-height: 1.8rem;
+                font-weight: 500;                
     
             }
     
@@ -52,26 +47,20 @@
    main{
     margin: 1rem;
 
-    .body__image{
-        display: none;
-    }
-
     .top{
-        // border: 2px solid $primary-color;
+
         margin-bottom: 1rem;
-        border-radius: 10px;
-        opacity: 0.4;
-        box-shadow: $box-shadow2;
-        min-height: auto;
+
         
         &--title{
-            font-size: 4rem;
+            font-size: 3rem;
             text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
         }
     
         &--sub {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+            line-height: 3rem;
     
         }
     

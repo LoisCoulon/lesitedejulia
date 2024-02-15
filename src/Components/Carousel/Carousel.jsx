@@ -13,7 +13,7 @@ function CarouselComponent() {
 
     return (
         <div className="carousel-wrapper">
-            <Carousel infiniteLoop autoPlay transitionTime={500} showThumbs={false} showStatus={false}>
+            <Carousel infiniteLoop autoPlay transitionTime={500} showThumbs={false} showStatus={false} dynamicHeight={true} width="100%">
                 <div>
                     <img alt="image1" src={image1} />
                 </div>

@@ -16,13 +16,13 @@ function Header() {
             <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
                 <ul className="navbar__links">
                     <li className="navbar__item"> 
-                        <Link className="navbar__link" to="/">Accueil</Link>
+                        <Link className="navbar__link" to="/" onClick={handleShowLinks}>Accueil</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link className="navbar__link" to="/about">A propos de moi</Link>
+                        <Link className="navbar__link" to="/about" onClick={handleShowLinks}>A propos de moi</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link className="navbar__link" to="/contact">Me contacter</Link>
+                        <Link className="navbar__link" to="/contact" onClick={handleShowLinks}>Me contacter</Link>
                     </li>
                 </ul>
 

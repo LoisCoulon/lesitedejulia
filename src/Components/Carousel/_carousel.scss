@@ -2,8 +2,11 @@
 @media (min-width:320px)  {
 
     .carousel-wrapper {
-        display: none;    
-        box-shadow: $box-shadow2
+        box-shadow: $box-shadow2;
+        margin: 0.5rem;
+        border-radius: 10px;
+        overflow: hidden;
+
     }
   }
 
@@ -17,17 +20,15 @@
 @media (min-width:961px)  {
 
     .carousel-wrapper {
-        
-        overflow: hidden;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-        border-radius: 10px;
-        .slider-wrapper{
+        background-color: black;
+        .carousel-slider{
+            height: 60vh;
+        }
 
-            border-radius: 10px;
+        .slider-wrapper{
+            div{
+                display: inline-block;
+            }
 
         }
 
