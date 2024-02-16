@@ -6,6 +6,7 @@ import About from './Pages/About/About'
 import Header from './Components/Header/Header';
 import Error from './Pages/Error/Error'
 import Contact from './Pages/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import "./main.scss";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
         <Route path='/contact' element={<Contact/>} />
         <Route path='*' element={<Error/>} />
       </Routes>
+      <Footer/>
     </Router>
   </React.StrictMode>
 );

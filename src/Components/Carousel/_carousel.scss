@@ -20,14 +20,15 @@
 @media (min-width:961px)  {
 
     .carousel-wrapper {
-        background-color: black;
+        background-color: $secondary-color;
+        margin: 2rem 7rem;
         .carousel-slider{
-            height: 60vh;
+            // height: 60vh;
         }
 
         .slider-wrapper{
             div{
-                display: inline-block;
+                // display: inline-block;
             }
 
         }

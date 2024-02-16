@@ -1,0 +1,20 @@
+@media (min-width:320px)  {
+    .footer{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $primary-color;
+        // position: absolute;
+        // bottom: 0;
+        height: 4rem;
+    
+    }
+}
+
+@media (min-width:961px)  {
+    .footer{
+        
+    }
+}
