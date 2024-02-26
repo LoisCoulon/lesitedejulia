@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lesitedejulia/static/css/main.7d988132.css",
+    "main.js": "/lesitedejulia/static/js/main.bcbfb235.js",
+    "static/media/4.jpg": "/lesitedejulia/static/media/4.e9207ad8bc4f7f162de7.jpg",
+    "static/media/6.jpg": "/lesitedejulia/static/media/6.68bc5647aaaca760a113.jpg",
+    "static/media/3.jpg": "/lesitedejulia/static/media/3.0d1657a5f072d7cdc864.jpg",
+    "static/media/5.jpg": "/lesitedejulia/static/media/5.cc27a6f85037d68bb1a9.jpg",
+    "static/media/2.jpg": "/lesitedejulia/static/media/2.aea0766b72017eb730c2.jpg",
+    "static/media/1.jpg": "/lesitedejulia/static/media/1.4fdb1f2588b21e4a18eb.jpg",
+    "static/media/LogoJuliaCoulon.png": "/lesitedejulia/static/media/LogoJuliaCoulon.506e02398953a2c32b34.png",
+    "index.html": "/lesitedejulia/index.html",
+    "main.7d988132.css.map": "/lesitedejulia/static/css/main.7d988132.css.map",
+    "main.bcbfb235.js.map": "/lesitedejulia/static/js/main.bcbfb235.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d988132.css",
+    "static/js/main.bcbfb235.js"
+  ]
+}
