@@ -1,10 +1,7 @@
-function About() {
+import RandomColor from "../../Components/RandomColor/RandomColor";
 
-    return (
-        <div>
-            <p>A propos de moi</p>
-        </div>
-    )
+function About() {
+  return <RandomColor />;
 }
 
-export default About
+export default About;
